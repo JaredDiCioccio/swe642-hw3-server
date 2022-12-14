@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d3eed5f-e461-4dd4-8c2d-26af2217e324" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="4d3eed5f-e461-4dd4-8c2d-26af2217e324" name="Changes" comment="changed to h2 database for simplifying docker assignment">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gmu/jmd/Homework3ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmu/jmd/Homework3ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,6 +244,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667362905219</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed to h2 database for simplifying docker assignment">
+      <created>1671042311802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671042311802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +265,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed to h2 database for simplifying docker assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed to h2 database for simplifying docker assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

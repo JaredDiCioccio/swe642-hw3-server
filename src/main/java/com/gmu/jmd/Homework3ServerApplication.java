@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.Scanner;
 
 //@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+@SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan
 @EnableWebMvc
