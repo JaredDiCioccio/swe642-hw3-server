@@ -15,21 +15,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin
 @RestController
 public class SurveysController {
 
     @Autowired
     private SurveysRepository surveyRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping("/survey")
     public Iterable<Survey> getSurveys() {
         return surveyRepository.findAll();
     }
 
 
-    @CrossOrigin(origins = "http://localhost:8080")
     @PostMapping("/survey")
     public ResponseEntity addSurvey(@RequestBody Survey survey) {
         surveyRepository.save(survey);
